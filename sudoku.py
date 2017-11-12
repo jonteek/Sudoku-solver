@@ -3,7 +3,9 @@ Author: Jonathan Ek
 Last updated: 2017-11-12
 Description: Sudoku solver
 '''
-
+'''Todo: The program can list all possible numbers of any one square. It can also update these numbers after 
+         has been placed. It is now necessary to identify a unique number for each square. i.e solve the puzzle
+         '''
 
 squareContents = '200004000900007041600500200057600080000000000030008760001005008520800004000400002'
 assert len(squareContents) == 81
